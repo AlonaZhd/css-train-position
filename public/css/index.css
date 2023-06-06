@@ -18,14 +18,15 @@
 
 /*====== !!! не ивпевнена що в цьому завданні правильно =========*/
 .container4 {
-  position: relative;
+  overflow: scroll;
 }
 
 .task4 {
-  position: relative;
+  width: 1000px;
 }
 .task4 .item {
-  position: absolute;
+  position: sticky;
+  bottom: 300px;
   left: calc(50% - (80px / 2));
 }
 /*===============*/
@@ -62,40 +63,42 @@
   float: right;
 }
 
-/*====== !!! не розумію цього завдання =========*/
 .task8 .item1 {
-  clear: both;
+  float: left;
 }
 
 .task8 .item2 {
   height: 120px;
-  clear: both;
+  float: right;
 }
 
 .task8 p {
-  float: none;
+  clear: both;
 }
-/*===============*/
 
-/*====== !!! не розумію цього завдання =========*/
 .task9 .item1 {
   height: 200px;
+  float: left;
 }
+
 .task9 .item2 {
+  float: right;
 }
+
 .task9 p {
+  clear: right;
 }
 
-/*===============*/
-
-/*====== !!! не розумію цього завдання =========*/
 .task10 .item1 {
+  float: left;
 }
 .task10 .item2 {
+  float: right;
+  height: 210px;
 }
 .task10 p {
+  clear: left;
 }
-/*===============*/
 
 .task11 .img-item {
   height: 100%;
